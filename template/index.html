@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Vuetify Parallax Starter</title>
+  <title>FAST Online</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
@@ -11,11 +11,15 @@
  <div id="app">
    <v-app light>
     <v-toolbar class="white">
-      <v-toolbar-title v-text="title"></v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-toolbar-items>
+        <v-btn flat href="/mobile">Tester</v-btn>
+        <v-btn flat href="/login">Administrator</v-btn>
+      </v-toolbar-items>
     </v-toolbar>
     <v-content>
       <section>
-        <v-parallax src="assets/hero.jpeg" height="600">
+        <v-parallax src="assets/hero.jpeg" height="500">
           <v-layout
             column
             align-center
@@ -23,13 +27,13 @@
             class="white--text"
           >
             <img src="assets/vuetify.png" alt="Vuetify.js" height="200">
-            <h1 class="white--text mb-2 display-1 text-xs-center">Parallax Template</h1>
-            <div class="subheading mb-3 text-xs-center">Powered by Vuetify</div>
+            <h1 class="white--text mb-2 pa-1 display-1 text-xs-center" style="background-color: rgba(0,0,0,0.15);">Facility Assessment & Survey Technology</h1>
+            <div class="subheading mb-3 pa-1 text-xs-center" style="background-color: rgba(0,0,0,0.15);">Cross-Connection Control Management Software</div>
             <v-btn
               class="blue lighten-2 mt-5"
               dark
               large
-              href="/pre-made-themes"
+              href="/register"
             >
               Get Started
             </v-btn>
@@ -46,9 +50,9 @@
         >
           <v-flex xs12 sm4 class="my-3">
             <div class="text-xs-center">
-              <h2 class="headline">The best way to start developing</h2>
-              <span class="subheading">
-                Cras facilisis mi vitae nunc 
+              <h2 class="headline">Cross-connection and backflow prevention assembly inventory management</h2>
+              <span class="subheading ma-3">
+                Facilitates the water purveyors' mandate to protect the water supply and provide healthy and clean drinking water utilizing modern technology and record keeping from the initial facility assessment through to the periodic testing of each backflow prevention device
               </span>
             </div>
           </v-flex>
@@ -61,7 +65,7 @@
                       <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Material Design</div>
+                      <div class="headline text-xs-center">FAST Tester</div>
                     </v-card-title>
                     <v-card-text>
                       Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
@@ -76,7 +80,7 @@
                       <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline">Fast development</div>
+                      <div class="headline">FAST Administration</div>
                     </v-card-title>
                     <v-card-text>
                       Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
@@ -91,7 +95,7 @@
                       <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Completely Open Sourced</div>
+                      <div class="headline text-xs-center">FAST Surveyor</div>
                     </v-card-title>
                     <v-card-text>
                       Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
@@ -109,13 +113,14 @@
       <section>
         <v-parallax src="assets/section.jpg" height="380">
           <v-layout column align-center justify-center>
-            <div class="headline white--text mb-3 text-xs-center">Web development has never been easier</div>
-            <em>Kick-start your application today</em>
+            <div class="headline white--text mb-3 pa-1 text-xs-center" style="background-color: rgba(0,0,0,0.15);">Testimonials</div>
+            <em class="subheading pa-1" style="background-color: rgba(0,0,0,0.15);">Amazing software!</em>
+            <em class="pa-1" style="background-color: rgba(0,0,0,0.15);">- Happy customer</em>
             <v-btn
               class="blue lighten-2 mt-5"
               dark
               large
-              href="/pre-made-themes"
+              href="/register"
             >
               Get Started
             </v-btn>
@@ -129,12 +134,10 @@
             <v-flex xs12 sm4>
               <v-card class="elevation-0 transparent">
                 <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Company info</div>
+                  <div class="headline">Company</div>
                 </v-card-title>
                 <v-card-text>
-                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                  Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                  Providing over 15 years of municipal water purveyor consulation and water operator training, MTS is an industry expert in the cross-connection and backflow prevention industry
                 </v-card-text>
               </v-card>
             </v-flex>
@@ -144,7 +147,7 @@
                   <div class="headline">Contact us</div>
                 </v-card-title>
                 <v-card-text>
-                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                  We are available during regular business hours to answer your general inquiries, sales and support questions
                 </v-card-text>
                 <v-list class="transparent">
                   <v-list-tile>
@@ -152,7 +155,7 @@
                       <v-icon class="blue--text text--lighten-2">phone</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
-                      <v-list-tile-title>777-867-5309</v-list-tile-title>
+                      <v-list-tile-title>250-503-0893</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile>
                   <v-list-tile>
@@ -160,7 +163,7 @@
                       <v-icon class="blue--text text--lighten-2">place</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
-                      <v-list-tile-title>Chicago, US</v-list-tile-title>
+                      <v-list-tile-title>British Columbia, Canada</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile>
                   <v-list-tile>
@@ -168,7 +171,7 @@
                       <v-icon class="blue--text text--lighten-2">email</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
-                      <v-list-tile-title>john@vuetifyjs.com</v-list-tile-title>
+                      <v-list-tile-title>hello@fastbfp.ca</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile>
                 </v-list>
@@ -181,11 +184,10 @@
       <v-footer class="blue darken-2">
         <v-layout row wrap align-center>
           <v-flex xs12>
-            <div class="white--text ml-3">
-              Made with
+            <div class="white--text text-xs-center">
+              Part of the
               <v-icon class="red--text">favorite</v-icon>
-              by <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
-              and <a class="white--text" href="https://github.com/vwxyzjn">Costa Huang</a>
+              <a class="white--text" href="https://www.mtsinc.ca" target="_blank">MTS family</a>
             </div>
           </v-flex>
         </v-layout>
@@ -200,10 +202,16 @@
     el: '#app',
     data () {
       return {
-        title: 'Your Logo'
+        title: 'FAST'
       }
     }
   })
  </script>
 </body>
 </html>
+<!--
+  ACKNOWLEDGEMENTS & LICENSES
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-
+  VuetifyJS framework by <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
+  Parallax Starter Theme by <a class="white--text" href="https://github.com/vwxyzjn">Costa Huang</a>
+-->
